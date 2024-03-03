@@ -14,4 +14,4 @@ $ git branch -m master main //创建分支，master是将master改为main，
 			//如果名字就是main则不用加master。
 
 $ git remote add origin "<链接>" //关联本地仓库和github
-$ git push -u origin mian //上传，-u是空仓库才要加
+$ git push -u origin main //上传，-u是空仓库才要加
