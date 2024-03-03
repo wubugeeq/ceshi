@@ -1,0 +1,17 @@
+$ git config --global user.name "<用户名>"
+$ git config --global user.email "<电子邮件>"
+
+$ git clone "<链接>"  //下载
+
+$ git init
+$ git add .  //预备提交全部文件
+$ git commit -m "备注" //提交到本地仓库
+
+$ git log     //查看
+$ git checkout HEAD "<要返回的文件名>" //返回原来的文件
+
+$ git branch -m master main //创建分支，master是将master改为main，
+			//如果名字就是main则不用加master。
+
+$ git remote add origin "<链接>" //关联本地仓库和github
+$ git push -u origin mian //上传，-u是空仓库才要加
